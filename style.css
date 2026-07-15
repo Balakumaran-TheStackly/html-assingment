@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #82ef8f;
+    margin: 20px;
+    color: #333;
+}
+/* Paragraph */
+.about{
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.h1,.h2{
+    text-align: center;
+    background-color:#312eef ;
+}
+h1:hover, h2:hover{
+    color: rgb(246, 5, 5);
+}
+h3{
+    color: rgb(60, 98, 98);
+}
+.hr{
+    border: 1px solid gray;
+}
+/* Lists */
+.list1 {
+    list-style-type: decimal;
+    padding-left:30px;
+}
+.list2{
+    list-style-type: circle;
+    padding-left:30px;
+}
+
+/* Table */
+table{
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 10px;
+}
+
+table,th,td{
+    border:1px solid black;
+}
+
+th{
+    background-color: steelblue;
+    color:rgb(12, 5, 5);
+}
+
+th,td{
+    padding:10px;
+    text-align:center;
+}
+
+img{
+    width:300px;
+    height:200px;
+    border-radius:10px;
+}
+.links{
+    text-decoration:none;
+    color:blue;
+    font-size:18px;
+    margin-right:20px;
+}
+
+a:hover{
+    color:red;
+}
+button{
+    background-color:green;
+    color:rgb(169, 177, 220);
+    padding:10px 20px;
+    border:none;
+    border-radius:5px;
+}
+button:hover{
+    background-color:darkgreen;
+}
+/* Form */
+.h3form{
+    text-align: center;
+}
+
+form{
+    align-items: center;
+    background-color:rgb(158, 197, 255);
+    width:400px;
+    margin:auto;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0px 0px 10px rgb(77, 231, 134);
+}
+input,select,textarea{
+    width:90%;
+    padding:8px;
+    margin-top:5px;
+}
+input[type="radio"],
+input[type="checkbox"]{
+    width:auto;
+}
+input[type="submit"]{
+    background-color:blue;
+    color:rgb(4, 6, 7);
+    border:none;
+    
+}
+input[type="submit"]:hover{
+    background-color:rgb(15, 15, 102);
+}
+input[type="reset"]{
+    background-color:red;
+    color:rgb(8, 13, 15);
+    border:none;
+   
+}
+input[type="reset"]:hover{
+    background-color:darkred;
+}
