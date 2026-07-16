@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgb(218, 224, 229);
+    color: rgb(4, 4, 4);
+}
+header{
+    background-color: rgb(8, 85, 60);
+    color: #e2e4e3;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 29px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+header nav a{
+    color: #e2e4e3;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+header nav a:hover{
+    color: #060707;
+}
+header a button{
+    background-color:green;
+    color: #e2e4e3;
+    padding:10px 20px;
+    border:none;
+    border-radius:20px;
+    font-size: 19px;
+    cursor: pointer;
+}
+header a button:hover{
+     background-color: rgb(7, 59, 7);
+    color: antiquewhite;
+}
+.hero{
+    text-align: center;
+    padding: 100px  30px;
+    background: linear-gradient(135deg,rgb(139, 190, 174),rgb(12, 108, 78));
+    color: #060707;
+}
+.hero h1{
+    font-size: 42px;
+    margin-bottom: 25px;
+}
+.hero p{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.hero .btn{
+    background-color: green;
+    color: #060707;
+    border-radius: 25px;
+    padding: 12px 30px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.hero .btn:hover{
+    background-color: rgb(7, 59, 7);
+    color: antiquewhite;
+}
