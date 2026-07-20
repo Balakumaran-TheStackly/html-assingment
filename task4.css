@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgb(203, 210, 210);
+}
+header{
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 29px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+.logo img{
+    max-width: 150px;
+    height: 70px;
+}
+header nav a{
+    color: #e2e4e3;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+header nav a:hover{
+    color: #060707;
+}
+header a button{
+    background-color:green;
+    color: #e2e4e3;
+    padding:10px 20px;
+    border:none;
+    border-radius:20px;
+    font-size: 19px;
+    cursor: pointer;
+}
+header a button:hover{
+     background-color: rgb(7, 59, 7);
+    color: antiquewhite;
+}
+.hero .slider{
+    height:auto;
+    position:relative;
+}
+.hero .slider {
+    background-image: url(images/s1.png);
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px;
+    
+}
+.hero .slider h4{
+    color: #f9fafa;
+    font-weight: bold;    
+    align-items: center;
+    font-size: 40px;
+}
+.hero .slider h2{
+    color: #ffffff;
+    font-weight: bold;    
+    align-items: center;
+    font-size: 150px;
+}
+.hero .slider p{
+    font-size: 32px;
+    color: #ffffff;
+}
+.hero .slider .rdbtn{
+    margin-top: 15px;
+    color: blue;
+    font-size: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px 0px 0px 0px;
+}
+
+/* Service */
+.hero .slider .services{
+    display: flex;
+    justify-content: center;
+    padding: 70px 50px;
+    gap: 10px;
+    text-align: center;
+    
+}
+.hero .slider .services .service-card{
+    background-color: white;
+    padding: 30px;
+    width: 250px;
+    border-radius: 5px;
+    text-align: center;
+    transition:transform 0.3s ease;
+}
+.hero .slider .services .service-card:hover{
+    transform: translateY(-15px);
+}
+.hero .slider .services .service-card h3{
+    font-size: 24px;
+    color: black ;
+    margin-bottom: 10px;
+} 
+.hero .slider .services .service-card p{
+    color: #060707;
+    font-size: 18px;
+}
+.hero .slider .services .service-card .rdbtn{
+    margin-top: 15px;
+    color: blue;
+    font-size: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px 0px 0px 0px;
+}
+footer{
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    
+}
+
+footer nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
