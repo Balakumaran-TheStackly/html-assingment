@@ -6,13 +6,25 @@
 body{
     background-color: rgb(203, 210, 210);
 }
-header{
+.header{
     background-color: blue;
     color: white;
     display: flex;
     align-items: center;
     padding: 30px;
     justify-content: space-between;
+    height: 40px;
+}
+.header1{
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: end;
+    height: 15px;
+    gap: 200px;
+    
 }
 
 .logo{
@@ -138,3 +150,65 @@ footer nav a{
     text-decoration: none;
     margin: 0 10px;
 }
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 100px;
+    
+}
+.about .about-image img{
+    height: auto;
+    width: 600px;
+}
+.about-content h2{
+    font-size: 28px;
+    color: blue;
+}
+.about-content h3{
+    font-size: 54px;
+    padding: 10px;
+}
+.about .about-content p{
+    font-size: 22px;
+    font-weight: lighter;
+}
+.about-content .about-list{
+    list-style: circle;
+    justify-content: center;
+    padding: 10px;
+    font-weight: bold;
+    line-height: 35px;
+    font-size: 20px;
+
+}
+.about .about-content h4{
+    padding: 30px;
+    font-size: 26px;
+    font-weight: bolder;
+    border: #060707;
+    background-color: #ffffff;
+    width: 700pxpx;
+}
+.about .about-content .section2btm{
+    display: flex;
+}
+.about .about-content .section2btm button{
+    margin-top: 15px;
+    color: blue;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px 0px 0px 0px;
+    font-size: 20px;
+}
+.about .about-content .section2btm button:hover{
+    transform: translateY(10px);
+    background-color: blue;
+    color: #ffffff;
+}
+.about .about-content .section2btm .contact{
+    font-size: 28px;
+    padding: 20px;
+}
+
