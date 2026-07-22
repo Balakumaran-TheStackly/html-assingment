@@ -200,7 +200,7 @@ header a button:hover{
 footer{
     background-color:  rgb(5, 5, 41);
     color: white;
-    display: flex;
+    
     justify-content: center;
     align-items: center;
     padding: 80px;
@@ -280,6 +280,18 @@ footer nav a{
     margin: 10px;
     gap: 20px; 
 }
+.footer-links .popular-posts{
+    justify-content: center;
+    align-items: start;     
+    list-style: none;
+    gap: 20px; 
+}
+.footer-links .popular-posts a{
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    display: flex;
+}
 .news_letter{
     background-color: white;
     color: #060707;
@@ -287,4 +299,9 @@ footer nav a{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+}
+footer .way{
+    display: none;
+    
+
 }
