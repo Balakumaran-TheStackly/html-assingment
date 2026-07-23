@@ -50,17 +50,22 @@ header nav a:hover{
     color: #060707;
 }
 header a button{
-    background-color:green;
+    background-color:blue;
     color: #e2e4e3;
     padding:10px 20px;
     border:none;
-    border-radius:20px;
+    border-radius:5%;
     font-size: 19px;
     cursor: pointer;
 }
 header a button:hover{
-     background-color: rgb(7, 59, 7);
+    background-color: blue;
     color: antiquewhite;
+}
+.header a span{
+    font-size: 35px;
+    text-decoration: none;
+    border-bottom: 0px;
 }
 .hero .slider{
     height:auto;
@@ -72,7 +77,8 @@ header a button:hover{
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 150px;
+    padding: 80px;
+    height: 750px;
     
 }
 .hero .slider h4{
@@ -116,6 +122,7 @@ header a button:hover{
     border-radius: 5px;
     text-align: center;
     transition:transform 0.3s ease;
+    box-shadow: 0 2px 35px 20px rgba(0, 0, 0, 0.12);
 }
 .hero .slider .services .service-card:hover{
     transform: translateY(-15px);
@@ -138,13 +145,14 @@ header a button:hover{
     border-radius: 10px 0px 0px 0px;
 }
 .about{
+    margin-top: 200px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     gap: 60px;
     padding: 100px;
     text-align: left;
-    
+    height: auto;
 }
 .about-image {
     display: grid;
@@ -155,30 +163,38 @@ header a button:hover{
 }
 .about .about-image img{
     width: 100%;
-    height: 250px;
+    height: 350px;
     object-fit: cover;
     border-radius: 10px;
 }
 .about-image img:first-child {
     grid-row: span 2;
-    height: 515px;
+    height: 715px;
+}
+.about-content{
+    padding: 10px;
+    text-align: start;
 }
 .about-content h2{
     font-size: 28px;
     color: blue;
+    margin-top: 0;
 }
 .about-content h3{
-    font-size: 54px;
+    font-size: 42px;
     padding: 10px;
+    padding-left: 0px;
 }
 .about .about-content p{
     font-size: 22px;
     font-weight: lighter;
+    text-align: justify;
 }
 .about-content .about-list{
     list-style: circle;
     justify-content: center;
     padding: 10px;
+    padding-left: 20px;
     font-weight: bold;
     line-height: 35px;
     font-size: 20px;
