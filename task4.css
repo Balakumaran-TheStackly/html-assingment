@@ -62,11 +62,7 @@ header a button:hover{
     background-color: blue;
     color: antiquewhite;
 }
-.header a span{
-    font-size: 35px;
-    text-decoration: none;
-    border-bottom: 0px;
-}
+
 .hero .slider{
     height:auto;
     position:relative;
@@ -97,16 +93,8 @@ header a button:hover{
     font-size: 32px;
     color: #ffffff;
 }
-.hero .slider .rdbtn{
-    margin-top: 15px;
-    color: blue;
-    font-size: 20px;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 10px 0px 0px 0px;
-}
 
-/* Service */
+
 .hero .slider .services{
     display: flex;
     justify-content: center;
@@ -121,11 +109,17 @@ header a button:hover{
     width: 250px;
     border-radius: 5px;
     text-align: center;
-    transition:transform 0.3s ease;
+    transition:transform 0.5s ease;
     box-shadow: 0 2px 35px 20px rgba(0, 0, 0, 0.12);
 }
 .hero .slider .services .service-card:hover{
     transform: translateY(-15px);
+}
+.service-card img{
+    transition: 0.5s ease;
+}
+.service-card img:hover{
+    transform: rotateZ(360deg);
 }
 .hero .slider .services .service-card h3{
     font-size: 24px;
@@ -136,13 +130,17 @@ header a button:hover{
     color: #060707;
     font-size: 18px;
 }
-.hero .slider .services .service-card .rdbtn{
+.rdbtn{
     margin-top: 15px;
     color: blue;
     font-size: 20px;
     padding: 20px;
     background-color: #ffffff;
     border-radius: 10px 0px 0px 0px;
+}
+.rdbtn:hover{
+    background-color: blue;
+    color: #ffffff;
 }
 .about{
     margin-top: 200px;
@@ -228,6 +226,80 @@ header a button:hover{
     font-size: 28px;
     padding: 20px;
 }
+.eservice{
+    padding: 60px;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 100px;
+
+}
+.eservice h2{
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.eservice p{
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding:0px 300px;
+    font-weight: lighter;
+}
+.eservices{
+    display: flex;
+    gap: 30px;
+    padding-top: 55px;
+}
+.eservice-section{
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 2px 35px 20px rgba(0, 0, 0, 0.12);
+    height: 580px;
+}
+.image-box{
+    position: relative;
+    transition: 0.5s ease;
+}
+.service-img{
+    width: 100%;
+    display: block;
+    
+}
+.service-img:hover{
+    transform: translatey(-10px);
+}
+.icon-box{
+    position: absolute;
+    right: 20px;
+    bottom: -30px;
+    width: 70px;
+    height: 70px;
+    background: #fff;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,.15);
+    transition: 0.5s ease;
+}
+.icon-box img{
+    height: 35px;
+    width: 35px;
+    transition: transform 0.5s ease;
+}
+.eservice-section:hover .icon-box img{
+    transform: rotateZ(360deg);
+}
+.eservice-section h3{
+    margin-top: 45px;
+    padding: 0 20px;
+}
+.eservice-section p{
+    padding: 10px 20px 20px;
+    
+}
+
 footer{
     background-color:  rgb(5, 5, 41);
     color: white;
@@ -236,14 +308,11 @@ footer{
     padding: 60px;
 
 }
-/* footer */
 .footer-wrapper{
     display:flex;
     justify-content: space-between;
     gap: 20px;
 }
-
-/* Left */
 .footer-wrapper .about-company{
     width:30%;
     background-color: white;
@@ -283,12 +352,9 @@ footer{
     color: black;
     text-decoration: underline;
 }
-/* Right */
 .footer-right{
     width:70%;
 }
-
-/* Newsletter */
 .newsletter{
     display:flex;
     justify-content:space-between;
@@ -315,8 +381,6 @@ footer{
     width: 20%;
     font-size: 18px;
 }
-
-/* Bottom Columns */
 .footer-links{
     display:grid;
     grid-template-columns:repeat(3,1fr);
@@ -368,7 +432,6 @@ footer nav a{
     justify-content: space-between;
     align-items: center;
 }
-/* Contact us */
 .mobile {
     display: flex;
     align-items: center;
