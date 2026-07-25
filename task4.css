@@ -449,6 +449,150 @@ details p{
     line-height:1.8;
 }
 
+.tech-contact{
+    background: url(images/video-img);
+    background-position: top;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    padding: 80px;
+    height: 900px;
+    background-color: #ffffff;
+}
+.video a i{
+    padding: 40px 450px;
+    font-size: 100px;
+    color: #1f57ff;
+}
+.form{
+    display: flex;
+    background-color: #e2e3e3;
+    align-items: normal;
+    padding: 80px 60px;
+    border-radius: 20px;
+    gap: 30px;
+}
+.form img{
+    height: 550px;
+}
+.form-content{
+    padding: 40px;
+    border: none;
+    
+}
+.form-content h2{
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+.form-content p{
+    font-size: 24px;
+    color:#555;
+    margin-bottom: 20px;
+}
+input{
+    padding: 10px 50px;
+    margin-bottom: 20px;
+    width:25%;
+}
+
+.articles{
+    padding: 60px;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 100px;
+
+}
+.articles h2{
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.articles p{
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding:0px 300px;
+    font-weight: lighter;
+}
+.article{
+    display: flex;
+    gap: 30px;
+    padding-top: 55px;
+}
+.article-section{
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 2px 35px 20px rgba(0, 0, 0, 0.12);
+    height: 580px;
+    text-align: justify;
+}
+.image-box{
+    position: relative;
+    transition: 0.5s ease;
+}
+.article-img{
+    width: 100%;
+    display: block;
+    
+}
+.article-img:hover{
+    transform: translatey(-10px);
+}
+.date-box {
+    color: blue;
+    padding: 15px ;
+    text-align: left;
+    font-size: 22px;
+}
+.date-box:hover{
+    color: black;
+}
+.article-section h3{
+    font-size: 26px;
+    padding: 10px;
+}
+.article-section h3:hover{
+    color: blue;
+}
+.article-section p{
+    padding: 10px 20px 20px;
+    color: #8d8c8c;
+}
+.footer-links .popular-posts{
+    justify-content: space-between;
+    align-items: start;     
+    list-style: none;
+    gap: 20px;     
+}
+.article-post{
+    justify-content: space-between;
+    align-items: center;     
+    list-style: none;  
+    text-align: left; 
+}
+.article-post a{
+    text-decoration: none;
+    font-size: 19px;
+    color:black;
+    display: flex;
+    padding: 10px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    gap: 20px;
+}
+.article-post a:hover{
+    text-decoration: none;
+    color: rgb(21, 21, 230);
+}
+.article-post a img{
+    height: 50px;
+}
+.post-cont{
+    display: flexbox;
+    color: #1f57ff;
+}
+
 
 
 footer{
