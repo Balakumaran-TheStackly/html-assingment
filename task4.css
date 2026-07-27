@@ -255,7 +255,8 @@ header a button:hover{
     overflow: hidden;
     position: relative;
     box-shadow: 0 2px 35px 20px rgba(0, 0, 0, 0.12);
-    height: 580px;
+    height: 600px;
+    padding-bottom: 10px;
 }
 .image-box{
     position: relative;
@@ -264,7 +265,7 @@ header a button:hover{
 .service-img{
     width: 100%;
     display: block;
-    
+    pad: 0px;
 }
 .service-img:hover{
     transform: translatey(-10px);
@@ -460,14 +461,14 @@ details p{
     background-color: #ffffff;
 }
 .video a i{
-    padding: 40px 450px;
+    padding: 40px 600px;
     font-size: 100px;
     color: #1f57ff;
 }
 .form{
     display: flex;
     background-color: #e2e3e3;
-    align-items: normal;
+    align-items: center;
     padding: 80px 60px;
     border-radius: 20px;
     gap: 30px;
@@ -492,7 +493,15 @@ details p{
 input{
     padding: 10px 50px;
     margin-bottom: 20px;
-    width:25%;
+    font-size: 18px;
+    border: none;
+}
+textarea{
+    font-size: 18px;
+    border: none;
+}
+.form .rdbtn{
+    border: none;
 }
 
 .articles{
@@ -500,7 +509,7 @@ input{
     background-color: #fff;
     text-align: center;
     padding-top: 100px;
-
+    
 }
 .articles h2{
     font-size: 40px;
@@ -526,6 +535,7 @@ input{
     box-shadow: 0 2px 35px 20px rgba(0, 0, 0, 0.12);
     height: 580px;
     text-align: justify;
+    padding-bottom: 30px;
 }
 .image-box{
     position: relative;
@@ -570,6 +580,7 @@ input{
     align-items: center;     
     list-style: none;  
     text-align: left; 
+    
 }
 .article-post a{
     text-decoration: none;
